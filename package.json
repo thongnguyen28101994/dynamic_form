@@ -1,0 +1,53 @@
+{
+  "name": "thanhtra",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.0.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.4.3",
+    "antd-dayjs-webpack-plugin": "0.0.9",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.0",
+    "customize-cra": "^0.9.1",
+    "formik": "^2.1.4",
+    "moment": "^2.29.1",
+    "react": "^16.13.1",
+    "react-app-rewired": "^2.1.5",
+    "react-csv": "^2.0.3",
+    "react-datasheet": "^1.4.8",
+    "react-dom": "^16.13.1",
+    "react-highlight-words": "^0.17.0",
+    "react-image-show": "^0.3.4",
+    "react-images-upload": "^1.2.8",
+    "react-json-to-table": "^0.1.7",
+    "react-pdf": "^4.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "read-excel-file": "^4.0.7",
+    "yup": "^0.29.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
