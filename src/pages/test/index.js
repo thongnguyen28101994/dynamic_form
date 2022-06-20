@@ -5,6 +5,7 @@ export default function Test() {
     <>
       <h1>DynamicForm</h1>
       <DynamicFormV2 id={1} />
+      <DynamicFormV2 id={2} />
     </>
   );
 }
