@@ -10,7 +10,7 @@ const AppRouter = () => {
   return (
     <Router history={hist}>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/dynamic_form/">
           <Login></Login>
         </Route>
         <Route exact path="/loginsso/">
