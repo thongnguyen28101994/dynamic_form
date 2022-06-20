@@ -32,7 +32,7 @@ const Login = () => {
         Returnuri:
           process.env.NODE_ENV === "development"
             ? "http://localhost:3000/loginsso"
-            : "https://dulieu.hcm.edu.vn/loginsso",
+            : "https://thongnguyen28101994.github.io/dynamic_form/loginsso",
         isHocSinh: "false",
       };
       await globalAPI.loginsso(data).then((res) => {
